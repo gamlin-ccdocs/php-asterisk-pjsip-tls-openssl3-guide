@@ -1,0 +1,33 @@
+{
+    "name": "vicistack/asterisk-pjsip-tls-openssl3-guide",
+    "description": "Asterisk PJSIP TLS Broken After OpenSSL 3 Upgrade? Here's the Fix for 'Wrong Curve' and Every Other Handshake Failure",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "asterisk",
+        "pjsip",
+        "tls",
+        "openssl3",
+        "guide"
+    ],
+    "homepage": "https://vicistack.com/blog/asterisk-pjsip-tls-openssl3-guide/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\AsteriskPjsipTlsOpenssl3Guide\\": "src/"
+        }
+    }
+}
